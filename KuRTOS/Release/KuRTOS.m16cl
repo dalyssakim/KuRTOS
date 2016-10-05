@@ -1,0 +1,11 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\WorkSpace\KuRTOS\KuRTOS\Release\KuRTOS.x30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\clock.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\Empty.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\list.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\mcu_init.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\qsk_lcd.r30"
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\scheduler.r30"

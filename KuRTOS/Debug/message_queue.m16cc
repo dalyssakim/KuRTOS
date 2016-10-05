@@ -1,0 +1,4 @@
+-c
+-finfo
+-dir "C:\WorkSpace\KuRTOS\KuRTOS\Debug"
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.c"

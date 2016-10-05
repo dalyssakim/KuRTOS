@@ -1,0 +1,193 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+C:\Renesas\NC30WA\V540R00\bin\ln30.exe @C:\WorkSpace\KuRTOS\KuRTOS\Release\KuRTOS.m16cl
+
+# LINK FILE INFORMATION
+ncrt0 (C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30)
+	Nov 29 00:05:18 2015
+
+clock (C:\WorkSpace\KuRTOS\KuRTOS\Release\clock.r30)
+	Nov 29 00:16:50 2015
+
+Empty (C:\WorkSpace\KuRTOS\KuRTOS\Release\Empty.r30)
+	Nov 29 00:05:18 2015
+
+list (C:\WorkSpace\KuRTOS\KuRTOS\Release\list.r30)
+	Nov 29 00:05:18 2015
+
+mcu_init (C:\WorkSpace\KuRTOS\KuRTOS\Release\mcu_init.r30)
+	Nov 29 00:05:18 2015
+
+qsk_lcd (C:\WorkSpace\KuRTOS\KuRTOS\Release\qsk_lcd.r30)
+	Nov 29 00:05:18 2015
+
+scheduler (C:\WorkSpace\KuRTOS\KuRTOS\Release\scheduler.r30)
+	Nov 29 00:05:18 2015
+
+_i4divu (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:01 2005
+
+_i4modu (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:02 2005
+
+_mbase (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:04 2005
+
+bcopy (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+bzero (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:07 2005
+
+mdata (C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib)
+	Dec  8 19:43:18 2005
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 000040 2     qsk_lcd
+                                 REL DATA    000440 000002 2     scheduler
+                                 REL DATA    000442 000010 2     mdata
+bss_NE                           REL DATA    000452 000000 2     ncrt0
+                                 REL DATA    000452 000004 2     clock
+                                 REL DATA    000456 000400 2     Empty
+                                 REL DATA    000856 000104 2     scheduler
+                                 REL DATA    00095A 000004 2     _mbase
+                                 REL DATA    00095E 000008 2     mdata
+data_NO                          REL DATA    000966 000000       ncrt0
+                                 REL DATA    000966 000001       qsk_lcd
+bss_NO                           REL DATA    000967 000000       ncrt0
+stack                            REL DATA    000967 000600       ncrt0
+heap                             REL DATA    000F67 000300       ncrt0
+rom_NE                           REL ROMDATA 001268 000000 2     ncrt0
+rom_NO                           REL ROMDATA 001268 000000       ncrt0
+data_FE                          ABS DATA    010000 000000       ncrt0
+bss_FE                           REL DATA    010000 000000 2     ncrt0
+data_FO                          REL DATA    010000 000000       ncrt0
+bss_FO                           REL DATA    010000 000000       ncrt0
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0
+                                 REL ROMDATA 0F0000 00001B       Empty
+data_SEI                         REL ROMDATA 0F001B 000000       ncrt0
+data_SOI                         REL ROMDATA 0F001B 000000       ncrt0
+data_NEI                         REL ROMDATA 0F001B 000000       ncrt0
+                                 REL ROMDATA 0F001B 000040       qsk_lcd
+                                 REL ROMDATA 0F005B 000002       scheduler
+                                 REL ROMDATA 0F005D 000010       mdata
+data_NOI                         REL ROMDATA 0F006D 000000       ncrt0
+                                 REL ROMDATA 0F006D 000001       qsk_lcd
+data_FEI                         REL ROMDATA 0F006E 000000       ncrt0
+data_FOI                         REL ROMDATA 0F006E 000000       ncrt0
+switch_table                     REL ROMDATA 0F006E 000000       ncrt0
+program                          REL CODE    0F006E 000000       ncrt0
+                                 REL CODE    0F006E 000135 2     clock
+                                 REL CODE    0F01A4 0000E9 2     Empty
+                                 REL CODE    0F028E 00008C 2     list
+                                 REL CODE    0F031A 000044 2     mcu_init
+                                 REL CODE    0F035E 0001E4 2     qsk_lcd
+                                 REL CODE    0F0542 0003CE 2     scheduler
+                                 REL CODE    0F0910 00004D 2     _i4divu
+                                 REL CODE    0F095E 00004B 2     _i4modu
+                                 REL CODE    0F09AA 000035 2     bcopy
+                                 REL CODE    0F09E0 000028 2     bzero
+interrupt                        REL CODE    0F0A08 000000       ncrt0
+                                 REL CODE    0F0A08 000117       ncrt0
+program_S                        REL CODE    0F0B1F 000000       ncrt0
+vector                           ABS ROMDATA 0FF800 000100       ncrt0
+svector                          ABS ROMDATA 0FFF00 000000       ncrt0
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           000E67(0003687) Byte(s)
+                                     ROMDATA        000172(0000370) Byte(s)
+                                     CODE           000AB1(0002737) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0408  $INIT_LIST_HEAD    0f028e  $LCD_write         0f0466
+$__list_add        0f02a4  $__list_del        0f0302  $check_period      0f0888
+$exit              0f0b1c  $init_scheduler    0f065e  $itoa_two_digit    0f0698
+$itoa_two_digit_   0f00c6  $list_add          0f02ca  $list_add_tail     0f02e6
+_DisplayDelay      0f0514  _InitDisplay       0f035e  _InitTimerA0       0f0082
+_InitTimerA1       0f00a0  _InitTimerA4       0f0178  _TimerA1IntHndl    0f0140
+_TimerA4IntHndl    0f019c  __i4divU           0f0910  __i4modU           0f095e
+__mbase            00095a  __memt             00044a  __mnext            00095e
+__msize            000962  __pool             000442  _bcopy             0f09aa
+_bzero             0f09e0  _current           000858  _display_clk       0f011e
+_display_tid       0f06f0  _dummy             0f0240  _exit              0f0b1c
+_get_time          0f006e  _init_tick         0f0078  _logo_map          000400
+_main              0f01a4  _mcu_init          0f031a  _program1          0f0246
+_program2          0f025e  _program3          0f0276  _rate_monotonic    0f076c
+_schedule          0f0714  _stk               000856  _t                 000452
+_task0_stk         000456  _task1_stk         000556  _task2_stk         000656
+_task3_stk         000756  _task_init         0f0542  _update_period     0f08a8
+dummy_int          0f0b1e  start              0f0a08  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30 )
+@ clock ( C:\WorkSpace\KuRTOS\KuRTOS\Release\clock.r30 )
+@ Empty ( C:\WorkSpace\KuRTOS\KuRTOS\Release\Empty.r30 )
+@ list ( C:\WorkSpace\KuRTOS\KuRTOS\Release\list.r30 )
+@ mcu_init ( C:\WorkSpace\KuRTOS\KuRTOS\Release\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\KuRTOS\KuRTOS\Release\qsk_lcd.r30 )
+@ scheduler ( C:\WorkSpace\KuRTOS\KuRTOS\Release\scheduler.r30 )
+@ _i4divu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _i4modu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30 )
+@ clock ( C:\WorkSpace\KuRTOS\KuRTOS\Release\clock.r30 )
+@ Empty ( C:\WorkSpace\KuRTOS\KuRTOS\Release\Empty.r30 )
+@ list ( C:\WorkSpace\KuRTOS\KuRTOS\Release\list.r30 )
+@ mcu_init ( C:\WorkSpace\KuRTOS\KuRTOS\Release\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\KuRTOS\KuRTOS\Release\qsk_lcd.r30 )
+@ scheduler ( C:\WorkSpace\KuRTOS\KuRTOS\Release\scheduler.r30 )
+@ _i4divu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _i4modu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30 )
+@ clock ( C:\WorkSpace\KuRTOS\KuRTOS\Release\clock.r30 )
+@ Empty ( C:\WorkSpace\KuRTOS\KuRTOS\Release\Empty.r30 )
+@ list ( C:\WorkSpace\KuRTOS\KuRTOS\Release\list.r30 )
+@ mcu_init ( C:\WorkSpace\KuRTOS\KuRTOS\Release\mcu_init.r30 )
+@ qsk_lcd ( C:\WorkSpace\KuRTOS\KuRTOS\Release\qsk_lcd.r30 )
+@ scheduler ( C:\WorkSpace\KuRTOS\KuRTOS\Release\scheduler.r30 )
+@ _i4divu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _i4modu ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ _mbase ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bcopy ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ bzero ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+@ mdata ( C:\Renesas\NC30WA\V540R00\lib30\nc30lib.lib )
+

@@ -1,0 +1,342 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"KuRTOS" "C:\WorkSpace\KuRTOS\KuRTOS" "C:\WorkSpace\KuRTOS\KuRTOS\KuRTOS.hwp" "M16C" "Renesas M16C Standard" "Application" "" "" 
+[INFORMATION]
+"No project information available" 
+[TOOL_CHAIN]
+"Renesas M16C Standard Toolchain" "5.40.00" 
+[CONFIGURATIONS]
+"Debug" "C:\WorkSpace\KuRTOS\KuRTOS\Debug" 
+"Debug_M16C_R8C_FoUSB_UART" "C:\WorkSpace\KuRTOS\KuRTOS\Debug_M16C_R8C_FoUSB_UART" 
+"Release" "C:\WorkSpace\KuRTOS\KuRTOS\Release" 
+[BUILD_PHASES]
+"Renesas M16C Assembler" 1 
+"Renesas M16C C Compiler" 1 
+"Renesas M16C Configurator" 1 
+"Renesas M16C Jump table Composer" 1 
+"Renesas M16C Librarian" 1 
+"Renesas M16C Linker" 1 
+"Renesas M16C Stype Converter" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "X30" 
+"Absolute list file" "ALS" 
+"Assembler error tag file" "ATG" 
+"Assembly include file" "INC" 
+"Assembly list file" "LST" 
+"Assembly source file" "A30" 
+"Branch Information file" "JIN" 
+"C header file" "H" 
+"C source file" "C" 
+"Configuration file" "CFG" 
+"Cross reference file" "XRF" 
+"Hex file" "HEX" 
+"ID file" "ID" 
+"Library file" "LIB" 
+"Library list file" "LLS" 
+"Linkage error tag file" "LTG" 
+"Linkage map file" "MAP" 
+"Preprocessed C source file" "I" 
+"Relocatable file" "R30" 
+"S-Record file" "MOT" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Absolute list file" "TEXT" "EDITOR" "" 
+"Assembler error tag file" "TEXT" "EDITOR" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Branch Information file" "TEXT" "EDITOR" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"Configuration file" "TEXT" "EDITOR" "" 
+"Cross reference file" "TEXT" "EDITOR" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"ID file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library list file" "TEXT" "EDITOR" "" 
+"Linkage error tag file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas M16C Assembler" 
+"Renesas M16C C Compiler" 
+"Renesas M16C Configurator" 
+"Renesas M16C Jump table Composer" 
+"Renesas M16C Librarian" 
+"Renesas M16C Linker" 
+"Renesas M16C Stype Converter" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Renesas M16C C Compiler" 1 
+"Renesas M16C Assembler" 1 
+"Renesas M16C Linker" 1 
+"Renesas M16C Stype Converter" 1 
+"Renesas M16C Librarian" 0 
+"Renesas M16C Configurator" 0 
+"Renesas M16C Jump table Composer" 0 
+[BUILD_PHASE_DETAILS]
+"Renesas M16C Assembler" "Assembly source file" 1 
+"Renesas M16C C Compiler" "C source file" 1 
+"Renesas M16C Configurator" "Configuration file" 0 
+"Renesas M16C Jump table Composer" "" 0 
+"Renesas M16C Librarian" "Relocatable file" 0 
+"Renesas M16C Linker" "Relocatable file" 0 
+"Renesas M16C Stype Converter" "Absolute file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas M16C Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas M16C C Compiler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Absolute file" "Renesas M16C Stype Converter" "Renesas M16C Linker" 
+"Assembly source file" "Renesas M16C Assembler" "Renesas M16C C Compiler" 
+"Relocatable file" "Renesas M16C Librarian" "Renesas M16C Assembler" 
+"Relocatable file" "Renesas M16C Librarian" "Renesas M16C C Compiler" 
+"Relocatable file" "Renesas M16C Linker" "Renesas M16C Assembler" 
+"Relocatable file" "Renesas M16C Linker" "Renesas M16C C Compiler" 
+[PROJECT_FILES]
+"C:\Program Files\Renesas\Hew\System\Pg\Renesas\QSK62P\projects\Tutorial\QSK Initial Demo\qsk_lcd.c" "User" "C source file" 2 
+"C:\Program Files\Renesas\Hew\System\Pg\Renesas\QSK62P\projects\Tutorial\QSK Initial Demo\qsk_lcd.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\Empty.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\clock.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\clock.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\context_switch.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\device.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\device_manager.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\device_manager.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\errno.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\heap.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\heap.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\itoa.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\itoa.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_device.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_device.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_lib.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_lib.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\list.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\list.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\mailbox.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\mcu_init.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\msgq_lib.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\msgq_lib.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\ncrt0.a30" "User" "Assembly source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\queue.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\queue.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\raw_debug.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\raw_debug.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_policy.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_queue.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_queue.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_rm.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_rm.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_wrr.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_wrr.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\schedule.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\scheduler.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\semaphore.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\semaphore.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\spinlock.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\spinlock.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_device.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_device.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_lib.c" "User" "C source file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_lib.h" "User" "C header file" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\type.h" "User" "C header file" 2 
+[FOLDER]
+"Assembly source file" "Assembly source file" 
+"C header file" "C header file" 
+"C source file" "C source file" 
+[GENERAL_DATA_PROJECT]
+"USE_CUSTOM_LINKAGE_ORDER" "1" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\WorkSpace\KuRTOS\KuRTOS\DefaultSession.hsf" 0 
+"SessionM16C_R8C_FoUSB_UART" "C:\WorkSpace\KuRTOS\KuRTOS\SessionM16C_R8C_FoUSB_UART.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[GENERAL_DATA_SESSION_SessionM16C_R8C_FoUSB_UART]
+[OPTIONS_Debug_Renesas M16C Assembler]
+"Assembly source file" "0869f65a73337c10" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\ncrt0.a30" "0869f65a73337c10" 2 
+[OPTIONS_Debug_Renesas M16C C Compiler]
+"C source file" "0869f65a73337c10" 1 
+"C:\Program Files\Renesas\Hew\System\Pg\Renesas\QSK62P\projects\Tutorial\QSK Initial Demo\qsk_lcd.c" "0b8cc3385c921d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\Empty.c" "0869f65a73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\clock.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\device_manager.c" "0e7dca8e37431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\heap.c" "08c449a56af21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\itoa.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_device.c" "094f8a2307431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_lib.c" "034d67b667431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\list.c" "04d109815a721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\mcu_init.c" "0237095d73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.c" "045a541193531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\msgq_lib.c" "08c851e9ff531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\queue.c" "0f4849059e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\raw_debug.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_queue.c" "072d8075fbf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_rm.c" "09c0dfe67cf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_wrr.c" "044236b366731d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\scheduler.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\semaphore.c" "0fd785853e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\spinlock.c" "04069f7124431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_device.c" "0b4436f2b0631d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_lib.c" "0dbfa3edc0631d10" 1 
+[OPTIONS_Debug_Renesas M16C Configurator]
+"Single Shot" "04872edc96731d10" 6 
+[OPTIONS_Debug_Renesas M16C Jump table Composer]
+"Single Shot" "04872edc96731d10" 7 
+[OPTIONS_Debug_Renesas M16C Librarian]
+"Single Shot" "04872edc96731d10" 5 
+[OPTIONS_Debug_Renesas M16C Linker]
+"Single Shot" "0a62dedc96731d10" 3 
+[OPTIONS_Debug_Renesas M16C Stype Converter]
+"Single Shot" "0a62dedc96731d10" 4 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|1] " 7 
+"[V|VERSION|1] [B|COMMAND|1] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+"[V|VERSION|1] [S|LIST|LM] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [S|DEFINE|__HEAPSIZE__=0300H] [S|DEFINE|_KD_=1] [S|DEFINE|_Firmware_space=0600H] [S|DEFINE|__USTACKSIZE__=0300H] [S|DEFINE|__ISTACKSIZE__=0300H]" 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+"C:\WorkSpace\KuRTOS\KuRTOS\Debug\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Assembler]
+"Assembly source file" "0869f65a73337c10" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\ncrt0.a30" "0869f65a73337c10" 2 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C C Compiler]
+"C source file" "0869f65a73337c10" 1 
+"C:\Program Files\Renesas\Hew\System\Pg\Renesas\QSK62P\projects\Tutorial\QSK Initial Demo\qsk_lcd.c" "0b8cc3385c921d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\Empty.c" "0869f65a73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\clock.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\device_manager.c" "0e7dca8e37431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\heap.c" "08c449a56af21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\itoa.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_device.c" "094f8a2307431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_lib.c" "034d67b667431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\list.c" "04d109815a721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\mcu_init.c" "0237095d73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.c" "045a541193531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\msgq_lib.c" "08c851e9ff531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\queue.c" "0f4849059e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\raw_debug.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_queue.c" "072d8075fbf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_rm.c" "09c0dfe67cf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_wrr.c" "044236b366731d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\scheduler.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\semaphore.c" "0fd785853e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\spinlock.c" "04069f7124431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_device.c" "0b4436f2b0631d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_lib.c" "0dbfa3edc0631d10" 1 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Configurator]
+"Single Shot" "04872edc96731d10" 6 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Jump table Composer]
+"Single Shot" "04872edc96731d10" 7 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Librarian]
+"Single Shot" "04872edc96731d10" 5 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Linker]
+"Single Shot" "0a62dedc96731d10" 3 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART_Renesas M16C Stype Converter]
+"Single Shot" "0a62dedc96731d10" 4 
+[OPTIONS_Debug_M16C_R8C_FoUSB_UART]
+"" 0 
+"[V|VERSION|1] " 7 
+"[V|VERSION|1] [B|COMMAND|1] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [S|DEFINE|__HEAPSIZE__=0300H] [S|DEFINE|_KD_=1] [S|DEFINE|_Firmware_space=0600H] [S|DEFINE|__USTACKSIZE__=0300H] [S|DEFINE|__ISTACKSIZE__=0300H]" 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+[EXCLUDED_FILES_Debug_M16C_R8C_FoUSB_UART]
+[LINKAGE_ORDER_Debug_M16C_R8C_FoUSB_UART]
+"C:\WorkSpace\KuRTOS\KuRTOS\Debug_M16C_R8C_FoUSB_UART\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Debug_M16C_R8C_FoUSB_UART]
+[OPTIONS_Release_Renesas M16C Assembler]
+"Assembly source file" "0869f65a73337c10" 2 
+"C:\WorkSpace\KuRTOS\KuRTOS\ncrt0.a30" "0869f65a73337c10" 2 
+[OPTIONS_Release_Renesas M16C C Compiler]
+"C source file" "0869f65a73337c10" 1 
+"C:\Program Files\Renesas\Hew\System\Pg\Renesas\QSK62P\projects\Tutorial\QSK Initial Demo\qsk_lcd.c" "0b8cc3385c921d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\Empty.c" "0869f65a73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\clock.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\device_manager.c" "0e7dca8e37431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\heap.c" "08c449a56af21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\itoa.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_device.c" "094f8a2307431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\led_lib.c" "034d67b667431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\list.c" "04d109815a721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\mcu_init.c" "0237095d73337c10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\message_queue.c" "045a541193531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\msgq_lib.c" "08c851e9ff531d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\queue.c" "0f4849059e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\raw_debug.c" "0ccdf78e74031d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_queue.c" "072d8075fbf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_rm.c" "09c0dfe67cf21d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\sched_wrr.c" "044236b366731d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\scheduler.c" "0572310ef9721d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\semaphore.c" "0fd785853e431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\spinlock.c" "04069f7124431d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_device.c" "0b4436f2b0631d10" 1 
+"C:\WorkSpace\KuRTOS\KuRTOS\switch_lib.c" "0dbfa3edc0631d10" 1 
+[OPTIONS_Release_Renesas M16C Configurator]
+"Single Shot" "04872edc96731d10" 6 
+[OPTIONS_Release_Renesas M16C Jump table Composer]
+"Single Shot" "04872edc96731d10" 7 
+[OPTIONS_Release_Renesas M16C Librarian]
+"Single Shot" "04872edc96731d10" 5 
+[OPTIONS_Release_Renesas M16C Linker]
+"Single Shot" "0a62dedc96731d10" 3 
+[OPTIONS_Release_Renesas M16C Stype Converter]
+"Single Shot" "0a62dedc96731d10" 4 
+[OPTIONS_Release]
+"" 0 
+"[V|VERSION|1] " 7 
+"[V|VERSION|1] [B|COMMAND|1] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [S|DEFINE|__HEAPSIZE__=0300H] [S|DEFINE|_KD_=1] [S|DEFINE|_Firmware_space=0600H] [S|DEFINE|__USTACKSIZE__=0300H] [S|DEFINE|__ISTACKSIZE__=0300H]" 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+"C:\WorkSpace\KuRTOS\KuRTOS\Release\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_R8C_FoUSB_UART]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_R8C_FoUSB_UART]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_FoUSB_UART_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_FoUSB_UART_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_FoUSB_UART_SessionM16C_R8C_FoUSB_UART]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_FoUSB_UART_SessionM16C_R8C_FoUSB_UART]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_SessionM16C_R8C_FoUSB_UART]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_SessionM16C_R8C_FoUSB_UART]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]

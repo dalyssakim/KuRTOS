@@ -1,0 +1,2 @@
+Empty Project
+Sets up and initializes an M16C project for this QSK board.
